@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Network Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+</head>
+
+<body>
+    <h1>Network Security</h1>
+    <hr/>
+    <br/>
+
+    <h3>What are the Layers of the TCP/IP Model?</h3>
+    <div>
+        <ul>
+            <li>Application</li>
+            <li>Transport</li>
+            <li>Internet</li>
+            <li>Link</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>What is the function of the...</h3>
+    <div>
+        <ul>
+            <li>Application Layer
+                <p>Interacting with Network Applications</p>
+            </li>
+            <li>Transport Layer
+                <p>Delivery and multiplexing of data to network applications</p>
+            </li>
+            <li>Internet Layer
+                <p>Addressing and transfer of data between gateway and hosts</p>
+            </li>
+            <li>Link Layer
+                <p>Interface with control of physical Devices</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <h3>What are example protocols of the...</h3>
+    <div>
+        <ul>
+            <li>Application Layer
+                <ul>
+                    <li>HTTP</li>
+                    <li>FTP</li>
+                </ul>
+            </li>
+            <li>Transport Layer
+                <ul>
+                    <li>TCP</li>
+                    <li>UDP</li>
+                </ul>
+            </li>
+            <li>Internet Layer
+                <ul>
+                    <li>IP</li>
+                    <li>ICMP</li>
+                </ul>
+            </li>
+            <li>Link Layer
+                <ul>
+                    <li>PPP</li>
+                    <li>ARP</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1>Attacks</h1>
+    <hr>
+    <hr>
+
+    <h3>Network Sniffing works on wich Layers?</h3>
+    <p>All Layers</p>
+    <hr>
+    <h3>What's the most dangerous thing about Network Sniffing?</h3>
+    <div>
+        <ul>
+            <li>It's passive and unnoticable</li>
+            <li>(mainly) affects confidentiality</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Name one Example of a Network Sniffing attack</h3>
+    <p>Man In The Middle Attack (MITMA)</p>
+    <hr>
+    <h3>Wich Layer is Affected by
+        <span>TCP Connection Spoofing</span>?</h3>
+    <p>Transport Layer</p>
+    <hr>
+    <h3>What is a DOS attack?</h3>
+    <div>
+        <ul>
+            <li>Denial Of Service Attack</li>
+            <li>makes ressources of host or network unavailable</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>wich Layer is affected by
+        <span>TCP Syn Flooding</span>?</h3>
+    <p>Transport Layer</p>
+    <hr>
+
+    <h1>Defenses</h1>
+    <hr>
+    <hr>
+    <h3>Wich Layer is protected through
+        <span>IPSec</span>?</h3>
+    <p>Network Layer</p>
+    <hr>
+    <h3>What are major Problems with IPSec?</h3>
+    <div>
+        <ul>
+            <li>IP Datagrams are
+                <i>not</i> authenticated</li>
+            <li>MITMA can read/modify IP datagrams header and payload</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>What is the solution to these Problems?</h3>
+    <div>Cryptography
+        <ul>
+            <li>confidentiality</li>
+            <li>authenticity</li>
+            <li>integrity</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>What are the (two) Modes of IPSec?</h3>
+    <div>
+        <ul>
+            <li>transport</li>
+            <li>tunneling</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What is the Goal of Transport-Layer-Security (TLS) ?</h3>
+    <p>provive
+        <span>Secure Communication</span> over
+        <span>incescure Channels</span>
+    </p>
+    <hr>
+
+    <hr>
+    <hr>
+    <a href="software.html">Previous</a>
+    <a href="web.html">Next</a>
+</body>
+
+</html>

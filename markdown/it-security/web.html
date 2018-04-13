@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+</head>
+
+<body>
+    <h1>Web Security</h1>
+    <hr/>
+    <br/>
+
+    <h3>How to perform an SQL-Injection?</h3>
+    <p>Inject SQL Commands into un-validated Form Fields to trigger execution of SQL Events on Server</p>
+    <hr>
+    <h3>What is the General Idea behind SQL-Injections?</h3>
+    <p>Mixing up Data and Code</p>
+    <hr>
+    <h3>How can one prevent SQL-Injection?</h3>
+    <div>
+        Validate Input
+        <ul>
+            <li>
+                <span>Check</span> given Input (if it has the expected Form)</li>
+            <li>
+                <span>Sanitize</span> Input by modifying it such that the result is correctly formed</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What does
+        <span>XSS</span> stand for?</h3>
+    <p>Cross Site Scripting</p>
+    <hr>
+    <h3>What's the target of XSS?</h3>
+    <p>Executing JS Code via victim's Browser (on website)</p>
+    <hr>
+    <h3>What are the Attacker's Goals?</h3>
+    <div>
+        <ul>
+            <li>Alter Page Content</li>
+            <li>Track Events (mouse clicks, keystrokes)</li>
+            <li>Issue and read web requests and replies</li>
+            <li>Read and Set Cookies</li>
+            <li>Manipulate AJAX Requests</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What Types of XSS exist?</h3>
+    <div>
+        <ul>
+            <li>Reflected
+                <p>Data in HTTP parameters is directly executed by server (exploit by manipulating URLs)</p>
+            </li>
+            <li>Persistent
+                <p>Attackers Data is stored on server and returned on page request (exploit using comments for example</p>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h3>What does
+        <span>CRSF</span> stand for?</h3>
+    <p>Cross Site Request Forgery</p>
+    <hr>
+    <h3>What are the differences between XSS and CRSF?</h3>
+    <div>
+        <ul>
+            <li>
+                <span>XSS</span>: The Attacker tries to controll what the website sends
+            </li>
+            <li>
+                <span>CRSF</span>: The Attacker tries to controll what the client's browser sends
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <hr>
+    <a href="network.html">Previous</a>
+    <a href="malware.html">Next</a>
+</body>
+
+</html>

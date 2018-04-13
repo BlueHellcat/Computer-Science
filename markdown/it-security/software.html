@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Software Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+</head>
+
+<body>
+    <h1>Software Security</h1>
+    <hr/>
+    <br/>
+
+    <h3>What is a Vulnerability?</h3>
+    <p>
+        <i>Exploitable Flaw</i> in a software or a system
+        <br>(not every bug is a vulnerability)
+    </p>
+    <hr>
+
+    <h3>Where do they come from?</h3>
+    <div>
+        <ul>
+            <li>Flaws in Design</li>
+            <li>Implementation errors</li>
+            <li>(Mis-) Configuration</li>
+            <li>Mis-use by User</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>How to prevent Vulnerabilitys?</h3>
+    <div>
+        <ul>
+            <li>Security Aware...
+                <ul>
+                    <li>design</li>
+                    <li>Implementation</li>
+                    <li>operation</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <h3>What are root causes of Vulnerabilitys (in Softwaredesign)</h3>
+    <div>
+        <ul>
+            <li>Inconsistency between Design and Implementation</li>
+            <li>Mixing of Control-Structures and Data</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What is an Exploit?</h3>
+    <p>Piece of Software that takes advantage of an vulerability</p>
+    <hr>
+
+    <h3>What are common exploit phases?</h3>
+    <div>
+        <ul>
+            <li>
+                <span>Injection</span> of Code/Data</li>
+            <li>Manipulation of Information/ Control Flow</li>
+            <li>Privilege elevation</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>How to exploit a Stack Overflow?</h3>
+    <div>
+        <ul>
+            <li>overwrite
+                <i>current</i> and
+                <i>previous</i> stack frames
+            </li>
+            <li>Manipulation of local Variables and return address</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What can be done by manipulation local Variables?</h3>
+    <p>Redirection of controll flow by variable Assignment</p>
+    <hr>
+
+    <h3>What can be done by manipulation of return address?</h3>
+    <div>
+        <ul>
+            <li>Injection of executable Code (aka. Shellcode)</li>
+            <li>redirection of return address to injected code</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h3>What are the dangers of a Read Overflow?</h3>
+    <p>might leak secret Information.</p>
+    <hr>
+
+    <h1>Defenses</h1>
+    <hr>
+    <br>
+    <h3>What are the Adventages of Type Safety?</h3>
+    <p>Ensure immunity to memory attacks</p>
+    <hr>
+
+    <h3>What can be ensured with Canaries?</h3>
+    <p>Stack integrity</p>
+    <hr>
+
+    <h1>Secure Software</h1>
+    <hr>
+    <hr>
+
+    <h3>What is the right approach to Secure Software Development?</h3>
+    <p>Consider Security from the very beginning and construct a secure design from the start</p>
+    <hr>
+
+    <h3>What are the steps of the Development Process?</h3>
+    <div>
+        <ul>
+            <li>Requirements Engineering</li>
+            <li>Design</li>
+            <li>Implementation</li>
+            <li>Testing</li>
+        </ul>
+    </div>
+    <hr>
+    <hr>
+    <a href="crypto.html">Previous</a>
+    <a href="network.html">Next</a>
+</body>
+
+</html>

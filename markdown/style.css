@@ -1,0 +1,47 @@
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    color: #811721;
+} 
+
+h3 {
+    color: grey;
+}
+
+
+p {
+    border: solid 1px grey;
+    border-radius: 8px;
+    padding: 8px;
+    color: #333;
+    display: inline-block;
+    filter: blur(4px);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+p:hover {
+    filter: blur(0px);
+    opacity: 1;
+}
+
+div {
+    border: solid 1px grey;
+    border-radius: 8px;
+    padding: 8px;
+    color: #333;
+    display: inline-block;
+    filter: blur(4px);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+div:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+span {
+    color: red;
+}
